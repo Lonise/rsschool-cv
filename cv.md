@@ -1,5 +1,5 @@
 # Loshkarev Nikita 
-===
+
 ## Contacts
 
 * Email: [loshkarev.n@inbox.ru](mailto:loshkarev.n@inbox.ru)
@@ -7,9 +7,7 @@
 * Telegram: [@Lonise](https://t.me/Lonise)
 * Phone: 89829921785
 
-===
 ## Summary
-\
 I tried two times to take courses at EPAM on the Front-end.
 First time just getting to know CSS. It was terrible.
 The second time the epidemiological situation ruined everything.
@@ -38,12 +36,12 @@ function createH1(){
       const h1Create = document.createElement("div");
       h1Create.innerText = '<h1>'+nameH1+'</h1>';
       h1Create.className = "createHeaders";
-      container.appendChild(h1Create)
+      container.appendChild(h1Create);
 
       const h1NewWebsite = document.createElement("div");
       h1NewWebsite.innerHTML = nameH1;
-    h1NewWebsite.className = "newWebsiteHeaders";
-    document.querySelector(".html-deign").append(h1NewWebsite);
+      h1NewWebsite.className = "newWebsiteHeaders";
+      document.querySelector(".html-deign").append(h1NewWebsite);
 }
 ```
 
