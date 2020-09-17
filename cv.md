@@ -50,8 +50,8 @@ function createH1(){
 I created websites on graduate work. Two websites for my fellow students and one for myself. In the spring I completed a test task for taking courses on the front-end in EPAM. 
 My works: [github](https://github.com/Lonise/myWorks.git)
  
-## Education: 
-Higher 
+## Education
+Higher \
 Udmurt State University, 
 Institute of Pedagogy of Psychology and Social Technologies, 
 professional education (teacher IСT)
