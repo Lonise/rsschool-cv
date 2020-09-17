@@ -1,0 +1,9 @@
+body {
+    background-color: gray;
+}
+.wrapper {
+    margin: 5% 20% 0 20%;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: white;
+}
