@@ -34,16 +34,16 @@ header h1 {
 
 section { padding: 0 4%; }
 
-.leftContainer {
+.left-container {
 flex: 1;
 padding-bottom: 2%;
 color: white;
 background-color: rgb(73, 77, 85);
 }
 
-.rightContainer { flex: 2; }
+.right-container { flex: 2; }
 
-.contactsList { 
+.contacts-list { 
     padding: 0;
     list-style: none;
 }
