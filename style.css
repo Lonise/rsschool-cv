@@ -18,6 +18,13 @@ header h1 {
     width: 100%;
 }
 
+.avatar {
+    margin: 0;
+    width: 100%;
+    display: inline-block;
+    
+}
+
 .wrapper div {
     display: inline-block;
 }
