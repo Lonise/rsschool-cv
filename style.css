@@ -1,15 +1,18 @@
 body {
-    background-color: rgb(210, 236, 243);
+    background-color: rgb(187, 136, 113);
+    font-family: sans-serif;
 }
 
 .wrapper {
-    margin: 2% 20% 0 20%;
+    display: flex;
+    margin: 2% 20%;
     background-color: white;
     box-shadow: 2px 10px 20px -3px black;
+    line-height: 1.5;
 }
 
 header {
-    background-color: rgb(64, 107, 172);
+    background-color: rgb(73, 77, 85);
 }
 
 header h1 {
@@ -25,17 +28,17 @@ header h1 {
     
 }
 
-.wrapper div {
-    display: inline-block;
+section {
+    padding: 0% 4% 0% 4%;
 }
 
 .leftContainer {
-width: 35%;
-height: 100%;
-background-color: rgb(64, 107, 172);
+color: white;
+padding-bottom: 2%;
+flex: 1;
+background-color: rgb(73, 77, 85);
 }
 
 .rightContainer {
-width: 55%;
-margin-left: 3%;
+flex: 2;
 }
