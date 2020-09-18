@@ -10,14 +10,15 @@
   <body>
     <main class="wrapper">
 
-      <header>
-        <figure>
-          <img src="avatar.jpg" alt="Avatar">
-        </figure>
-        <h1>Loshkarev Nikita</h1>
-      </header>
+      
 
-      <div class="leftContainer">
+      <div class="leftContainer"> 
+        <header>
+          <h1>Loshkarev Nikita</h1>
+        </header>
+        <figure class="avatar">
+          <img src="avatar.jpg" alt="Avatar" width="100%">
+        </figure>
         <section>
           <h2>Contacts</h2>
           <ul>
@@ -43,6 +44,7 @@
       </div>
 
       <div class="rightContainer">
+       
         <section>
           <h2>Summary</h2>
           <p>I tried two times to take courses at EPAM on the Front-end. 
@@ -59,18 +61,18 @@
           <h2>Code Example</h2>
           <pre>
             <code>
-              function createH1(){
-                  let nameH1 = prompt ('Enter heading', 'heading');
-                  const h1Create = document.createElement("div");
-                  h1Create.innerText = '&lt;h1>'+nameH1+'&lt;/h1>';
-                  h1Create.className = "createHeaders";
-                  container.appendChild(h1Create);
+function createH1(){
+  let nameH1 = prompt ('Enter heading', 'heading');
+  const h1Create = document.createElement("div");
+  h1Create.innerText = '&lt;h1>'+nameH1+'&lt;/h1>';
+  h1Create.className = "createHeaders";
+  container.appendChild(h1Create);
           
-                  const h1NewWebsite = document.createElement("div");
-                  h1NewWebsite.innerHTML = nameH1;
-                  h1NewWebsite.className = "newWebsiteHeaders";
-                  document.querySelector(".html-deign").append(h1NewWebsite);
-            }
+  const h1NewWebsite = document.createElement("div");
+  h1NewWebsite.innerHTML = nameH1;
+  h1NewWebsite.className = "newWebsiteHeaders";
+  document.querySelector(".html-deign").append(h1NewWebsite);
+}
             </code>
           </pre>
         </section>
