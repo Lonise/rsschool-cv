@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>My CV</title>
+  </head>
+  <body>
+    <main class="wrapper">
+      <div class="left-container"> 
+        <header>
+          <h1>Loshkarev  Nikita</h1>
+        </header>
+        <figure class="avatar">
+          <img src="avatar.jpg" alt="Avatar" width="100%">
+        </figure>
+        <section >
+          <h2>Contacts</h2>
+          <ul class="contacts-list">
+            <li><img class="contactsIcon" src="icons/phone.png" alt="phone icon">89829921785</li>
+            <li> <a href="mailto:loshkarev.n@inbox.ru"><img class="contactsIcon" src="icons/mail.png" alt="mail icon" ></a>loshkarev.n@inbox.ru</li>
+            <li><a href="https://vk.com/id98711114" target="_blank"><img class="contactsIcon" src="icons/vk.png" alt="vkontakte icon"></a>id98711114</li>
+            <li><a href="https://t.me/Lonise" target="_blank"><img class="contactsIcon" src="icons/telegram.png"alt="telegram icon"></a>@Lonise</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Skills</h2>
+          Programming Languages:
+          <ul> 
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+          <strong>Additionally</strong> I know a little: C++, C#, Pascal, Delphi, and React.
+        </section>
+        <section>
+          <h2>English</h2>
+          А2 (pre-intermediate)
+        </section>
+      </div>
+      <div class="right-container">
+        <section>
+          <h2>Summary</h2>
+          <hr>
+          <p>I tried two times to take courses at EPAM on the Front-end. 
+            First time just getting to know CSS. 
+            It was terrible. The second time the epidemiological situation ruined everything. 
+            It is my third attempt. I really like Front-end. This is very interesting! 
+            Solving tasks and learning new things every day is great. 
+            My goal is to become a Front-end and get a job at EPAM. I want to become a professional!<br><br>
+            <strong> Personal qualities:</strong> communicable, responsible, hardworking, punctual, 
+            purposeful, stress-resistant, good team worker, <i>never give up</i>.
+          </p>
+        </section>
+        <section>
+          <h2>Code example</h2>
+          <hr>
+          <pre>
+            <code>
+function createH1(){
+  let nameH1 = prompt ('Enter heading', 'heading');
+  const h1Create = document.createElement("div");
+  h1Create.innerText = '&lt;h1>'+nameH1+'&lt;/h1>';
+  h1Create.className = "createHeaders";
+  container.appendChild(h1Create);
+          
+  const h1NewWebsite = document.createElement("div");
+  h1NewWebsite.innerHTML = nameH1;
+  h1NewWebsite.className = "newWebsiteHeaders";
+  document.querySelector(".html-deign").append(h1NewWebsite);
+}
+            </code>
+          </pre>
+        </section>
+        <section>
+          <h2>Work experience</h2>
+          <hr>
+          <p>
+            I created websites on graduate work. 
+            Two websites for my fellow students and one for myself. 
+            In the spring I completed a test task for taking courses on the front-end in EPAM.<br>
+            My works: <a href="https://github.com/Lonise/myWorks.git" target="_blank">github</a>
+          </p>
+        </section>
+        <section>
+          <h2>Education</h2>
+          <hr>
+          <p>
+            Higher<br> 
+            Udmurt State University, Institute of Pedagogy of Psychology and Social Technologies, professional education (teacher IСT)
+          </p>
+        </section>
+      </div>  
+    </main>
+  </body>
+</html>
