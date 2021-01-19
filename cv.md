@@ -8,13 +8,10 @@
 * Phone: 89829921785
 
 ## Summary
-I tried two times to take courses at EPAM on the Front-end.
-First time just getting to know CSS. It was terrible.
-The second time the epidemiological situation ruined everything.
-It is my third attempt. I really like Front-end. This is very interesting! 
-Solving tasks and learning new things every day is great. 
-My goal is to become a Front-end and get a job at EPAM.
-I want to become a professional!
+Tried to become Front-end twice. First time just getting to know CSS. It was terrible. 
+The second time the epidemiological situation ruined everything. It is my third attempt. 
+I really like Front-end. This is very interesting! Solving tasks and learning new things every day is great. 
+My goal is to become a Front-end developer. I want to become a professional!
 \
 **Personal qualities:** communicable, responsible, hardworking, punctual, purposeful, stress-resistant,  good team worker, *never give up*. 
 
